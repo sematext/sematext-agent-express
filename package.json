@@ -1,0 +1,19 @@
+{
+  "name": "sematext-agent-express",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sematext Inc. Group",
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "morgan-json": "^1.1.0",
+    "spm-agent-nodejs": "^3.0.0",
+    "winston": "^3.2.1",
+    "winston-logsene": "^2.0.6"
+  }
+}
