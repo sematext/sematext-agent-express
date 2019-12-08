@@ -1,0 +1,19 @@
+os:
+  - linux
+sudo: false
+language: node_js
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+node_js:
+  - "6"
+  - "8"
+  - "10"
+install:
+  - export CXX=g++-4.8
+  - $CXX --version
+  - npm i node-pre-gyp@latest
+  - npm i 
