@@ -4,9 +4,7 @@
 
 [![NPM](https://nodei.co/npm/sematext-agent-express.png)](https://nodei.co/npm/sematext-agent-express/)
 
-This is the Express.js monitoring and logging agent for Sematext Cloud.
-
-The following information is collected and shipped to Sematext Cloud / Enterprise:
+This is the Express.js monitoring and logging agent for [Sematext](https://sematext.com/). The following data is collected and shipped to Sematext [Cloud](https://sematext.com/cloud/) / [Enterprise](https://sematext.com/enterprise/):
 
 - OS Metrics (CPU / Mem)
 - Process Memory
