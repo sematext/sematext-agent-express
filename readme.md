@@ -131,11 +131,11 @@ The Agents will capture both metrics, logs, and HTTP logs per API endpoint.
 
 ### Metrics
 
-[](https://cdn.sematext.com/images/sample-nodejs-metrics.png)
+![](https://cdn.sematext.com/images/sample-nodejs-metrics.png)
 
 ### Logs
 
-[](https://cdn.sematext.com/images/sample-nodejs-logs.png)
+![](https://cdn.sematext.com/images/sample-nodejs-logs.png)
 
 ## Troubleshooting
 
