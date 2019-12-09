@@ -9,6 +9,10 @@
   "author": "Sematext Group, Inc.",
   "license": "Copyright (c) Sematext Group, Inc.",
   "homepage": "http://www.sematext.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sematext/sematext-agent-express.git"
+  },
   "keywords": [
     "SPM",
     "APM",
