@@ -25,6 +25,22 @@ This is the Express.js monitoring and logging agent for [Sematext](https://semat
 - Custom Logs:
   - Instead of using `console.log` ship all logs directly to Sematext Logs with `stLogger`
 
+## Quickstart 
+
+1. Sign up to [Sematext for free](https://apps.sematext.com/ui/registration)  
+2. [Create a Node.js Monitoring App](https://apps.sematext.com/ui/integrations) and copy the Monitoring App Token
+3. [Create a Logs App](https://apps.sematext.com/ui/integrations) and copy the Logs App Token
+4. Install the `sematext-agent-express` npm module
+4. Configure environment variables
+5. Run the agent using the App tokens provided for your Monitoring and Logs Apps
+
+## Create Apps in Sematext
+
+After you sign up to Sematext [here](https://apps.sematext.com/ui/registration), you need to create Apps to store metrics and logs data.
+
+1. Create a [Logs App](https://sematext.com/docs/logs/quick-start/)
+2. Create a [Monitoring App](https://sematext.com/docs/monitoring/quick-start/)
+
 ## Installation
 
 Install the package from the NPM registry.
@@ -32,8 +48,6 @@ Install the package from the NPM registry.
 ```bash
 npm i sematext-agent-express
 ```
-
-Sign up to Sematext [here](https://apps.sematext.com/ui/registration).
 
 ## Configure Environment
 
