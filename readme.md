@@ -65,9 +65,7 @@ export LOGS_TOKEN=<YOUR_LOGS_TOKEN>
 If you are using the EU region of Sematext Cloud:
 
 ```bash
-export SPM_RECEIVER_URL=https://spm-receiver.eu.sematext.com/receiver/v1
-export EVENTS_RECEIVER_URL=https://event-receiver.eu.sematext.com
-export LOGSENE_RECEIVER_URL=https://logsene-receiver.eu.sematext.com
+export REGION=EU
 export SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 export LOGS_TOKEN=<YOUR_LOGS_TOKEN
 ```
@@ -90,9 +88,7 @@ LOGS_TOKEN=<YOUR_LOGS_TOKEN>
 Add this code if you are using the EU region of Sematext Cloud:
 
 ```
-SPM_RECEIVER_URL=https://spm-receiver.eu.sematext.com/receiver/v1
-EVENTS_RECEIVER_URL=https://event-receiver.eu.sematext.com
-LOGSENE_RECEIVER_URL=https://logsene-receiver.eu.sematext.com
+REGION=EU
 SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 LOGS_TOKEN=<YOUR_LOGS_TOKEN
 ```

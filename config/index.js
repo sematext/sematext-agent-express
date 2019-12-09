@@ -15,6 +15,8 @@
  * Please see the full license (found in LICENSE in this distribution) for details on its license and the licenses of its dependencies.
  */
 
-require('../config')
-const sematextAgentExpress = require('./agent')
-module.exports = sematextAgentExpress()
+if (process.env.REGION === 'EU') {
+  process.env['SPM_RECEIVER_URL'] = 'https://spm-receiver.eu.sematext.com/receiver/v1'
+  process.env['EVENTS_RECEIVER_URL'] = 'https://event-receiver.eu.sematext.com'
+  process.env['LOGSENE_RECEIVER_URL'] = 'https://logsene-receiver.eu.sematext.com'
+}
