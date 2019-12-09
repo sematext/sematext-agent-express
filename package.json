@@ -14,7 +14,6 @@
     "url": "https://github.com/sematext/sematext-agent-express.git"
   },
   "keywords": [
-    "SPM",
     "APM",
     "application performance monitoring",
     "Sematext",
@@ -34,7 +33,15 @@
     "memwatch",
     "gc-profiler",
     "agent",
-    "logging"
+    "logging",
+    "express-middleware",
+    "logging-and-metrics",
+    "logger",
+    "logger-middleware",
+    "winston",
+    "winston-logsene",
+    "morgan",
+    "morgan-middleware"
   ],
   "dependencies": {
     "morgan": "^1.9.1",
