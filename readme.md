@@ -146,8 +146,7 @@ The Agents will capture both metrics, logs, and HTTP logs per API endpoint.
 ![](https://cdn.sematext.com/images/sample-nodejs-logs.png)
 
 ## Troubleshooting
-<!-- TODO: Update this after I create an Express.js integration page in docs -->
-Check out our [documentation](https://sematext.com/docs/integration/node.js/) for more information.
+Check out our [documentation](https://sematext.com/docs/integration/express.js/) for more information.
 
 ## Built with
 
