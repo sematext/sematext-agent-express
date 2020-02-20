@@ -60,6 +60,7 @@ If you are using the US region of Sematext Cloud:
 ```bash
 export SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 export LOGS_TOKEN=<YOUR_LOGS_TOKEN>
+export INFRA_TOKEN=<YOUR_INFRA_TOKEN>
 ```
 
 If you are using the EU region of Sematext Cloud:
@@ -68,6 +69,7 @@ If you are using the EU region of Sematext Cloud:
 export REGION=EU
 export SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 export LOGS_TOKEN=<YOUR_LOGS_TOKEN>
+export INFRA_TOKEN=<YOUR_INFRA_TOKEN>
 ```
 
 ### Use dotenv
@@ -83,6 +85,7 @@ Add this code if you are using the US region of Sematext Cloud:
 ```
 SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 LOGS_TOKEN=<YOUR_LOGS_TOKEN>
+INFRA_TOKEN=<YOUR_INFRA_TOKEN>
 ```
 
 Add this code if you are using the EU region of Sematext Cloud:
@@ -91,6 +94,7 @@ Add this code if you are using the EU region of Sematext Cloud:
 REGION=EU
 SPM_TOKEN=<YOUR_MONITORING_TOKEN>
 LOGS_TOKEN=<YOUR_LOGS_TOKEN>
+INFRA_TOKEN=<YOUR_INFRA_TOKEN>
 ```
 
 ## Configure Agent
