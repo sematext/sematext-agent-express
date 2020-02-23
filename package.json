@@ -1,10 +1,11 @@
 {
   "name": "sematext-agent-express",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Express.js Monitoring and Logging Agent by Sematext.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Build Passed.\" && exit 0"
+    "test": "echo \"Build Passed.\" && exit 0",
+    "release": "release-it"
   },
   "author": "Sematext Group, Inc.",
   "license": "Copyright (c) Sematext Group, Inc.",
@@ -49,5 +50,27 @@
     "spm-agent-nodejs": "^3.0.1",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.6"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.16.2",
+    "babel-eslint": "^10.0.3",
+    "mocha": "^6.2.2",
+    "npx": "^10.2.2",
+    "release-it": "^12.6.0",
+    "standard": "^14.3.1"
+  },
+  "release-it": {
+    "github": {
+      "release": true,
+      "tokenRef": "RELEASE_IT_GITHUB_TOKEN",
+      "releaseNotes": "npx auto-changelog --stdout --commit-limit false -u --template ./changelog.hbs",
+      "____comment": "\"assets\": [\"dist/agent-*\"]"
+    },
+    "hooks": {
+      "after:bump": "npx auto-changelog -p"
+    }
+  },
+  "standard": {
+    "parser": "babel-eslint"
   }
 }
