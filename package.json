@@ -1,10 +1,11 @@
 {
   "name": "sematext-agent-express",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Express.js Monitoring and Logging Agent by Sematext.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Build Passed.\" && exit 0",
+    "auto-changelog": "auto-changelog",
     "release": "release-it"
   },
   "author": "Sematext Group, Inc.",
@@ -62,11 +63,11 @@
     "github": {
       "release": true,
       "tokenRef": "RELEASE_IT_GITHUB_TOKEN",
-      "releaseNotes": "npm auto-changelog --stdout --commit-limit false -u --template ./changelog.hbs",
+      "releaseNotes": "npm run auto-changelog --stdout --commit-limit false -u --template ./changelog.hbs",
       "____comment": "\"assets\": [\"dist/agent-*\"]"
     },
     "hooks": {
-      "after:bump": "npm auto-changelog -p"
+      "after:bump": "npm run auto-changelog -p"
     }
   },
   "standard": {
