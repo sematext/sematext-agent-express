@@ -4,7 +4,8 @@
   "description": "Express.js Monitoring and Logging Agent by Sematext.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Build Passed.\" && exit 0"
+    "test": "echo \"Build Passed.\" && exit 0",
+    "release": "release-it"
   },
   "author": "Sematext Group, Inc.",
   "license": "Copyright (c) Sematext Group, Inc.",
