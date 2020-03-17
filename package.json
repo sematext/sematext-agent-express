@@ -1,6 +1,6 @@
 {
   "name": "sematext-agent-express",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Express.js Monitoring and Logging Agent by Sematext.",
   "main": "lib/index.js",
   "scripts": {
