@@ -16,7 +16,7 @@
  */
 
 if (process.env.REGION === 'EU') {
-  process.env['SPM_RECEIVER_URL'] = 'https://spm-receiver.eu.sematext.com/receiver/v1'
-  process.env['EVENTS_RECEIVER_URL'] = 'https://event-receiver.eu.sematext.com'
-  process.env['LOGSENE_RECEIVER_URL'] = 'https://logsene-receiver.eu.sematext.com'
+  process.env.SPM_RECEIVER_URL = 'https://spm-receiver.eu.sematext.com/receiver/v1'
+  process.env.EVENTS_RECEIVER_URL = 'https://event-receiver.eu.sematext.com'
+  process.env.LOGSENE_RECEIVER_URL = 'https://logsene-receiver.eu.sematext.com'
 }
