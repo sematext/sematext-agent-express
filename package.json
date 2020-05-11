@@ -48,7 +48,7 @@
   "dependencies": {
     "morgan": "^1.9.1",
     "morgan-json": "^1.1.0",
-    "spm-agent-nodejs": "^4.0.0",
+    "spm-agent-nodejs": "^4.0.2",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.6"
   },
@@ -56,7 +56,7 @@
     "auto-changelog": "^1.16.2",
     "babel-eslint": "^10.0.3",
     "mocha": "^6.2.2",
-    "release-it": "^12.6.0",
+    "release-it": "^13.5.8",
     "standard": "^14.3.1"
   },
   "release-it": {
