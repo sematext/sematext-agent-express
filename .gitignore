@@ -3,3 +3,9 @@ node_modules
 # npm config
 .npmrc
 .npmignore
+
+# cache
+spm*
+
+# samples
+example
