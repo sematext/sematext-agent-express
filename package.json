@@ -48,7 +48,7 @@
   "dependencies": {
     "morgan": "^1.9.1",
     "morgan-json": "^1.1.0",
-    "spm-agent-nodejs": "^4.1.1",
+    "spm-agent-nodejs": "^4.1.2",
     "winston": "^3.2.1",
     "winston-logsene": "^2.0.10"
   },
