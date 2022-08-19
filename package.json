@@ -9,7 +9,7 @@
     "release": "release-it"
   },
   "author": "Sematext Group, Inc.",
-  "license": "UNLICENSED",
+  "license": "Copyright (c) Sematext Group, Inc.",
   "homepage": "http://www.sematext.com",
   "repository": {
     "type": "git",
