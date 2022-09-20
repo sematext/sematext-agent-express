@@ -48,16 +48,16 @@
   "dependencies": {
     "morgan": "^1.9.1",
     "morgan-json": "^1.1.0",
-    "spm-agent-nodejs": "^4.1.2",
-    "winston": "^3.2.1",
-    "winston-logsene": "^2.0.10"
+    "spm-agent-nodejs": "^4.2.1",
+    "winston": "^3.8.2",
+    "winston-logsene": "^2.1.1"
   },
   "devDependencies": {
-    "auto-changelog": "^1.16.2",
+    "auto-changelog": "^2.4.0",
     "babel-eslint": "^10.0.3",
-    "mocha": "^6.2.2",
-    "release-it": "^15.0.0",
-    "standard": "^14.3.1"
+    "mocha": "^10.0.0",
+    "release-it": "^15.4.2",
+    "standard": "^17.0.0"
   },
   "release-it": {
     "github": {
