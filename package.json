@@ -49,7 +49,7 @@
     "morgan": "^1.9.1",
     "spm-agent-nodejs": "^4.2.3",
     "winston": "^3.8.2",
-    "winston-logsene": "^2.1.1"
+    "winston-logsene": "^2.1.2"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
