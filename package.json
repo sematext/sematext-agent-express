@@ -53,9 +53,7 @@
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
-    "babel-eslint": "^10.0.3",
-    "release-it": "^15.4.2",
-    "eslint": "^8.23.1"
+    "release-it": "^15.5.1"
   },
   "release-it": {
     "github": {
