@@ -47,13 +47,13 @@
   ],
   "dependencies": {
     "morgan": "^1.9.1",
-    "spm-agent-nodejs": "^4.2.3",
+    "spm-agent-nodejs": "^4.2.4",
     "winston": "^3.8.2",
     "winston-logsene": "^2.1.2"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
-    "release-it": "^15.5.1"
+    "release-it": "^15.10.1"
   },
   "release-it": {
     "github": {
