@@ -47,18 +47,13 @@
   ],
   "dependencies": {
     "morgan": "^1.9.1",
-    "morgan-json": "^1.1.0",
-    "spm-agent-nodejs": "^4.2.3",
+    "spm-agent-nodejs": "^4.2.6",
     "winston": "^3.8.2",
-    "winston-logsene": "^2.1.1"
+    "winston-logsene": "^2.1.2"
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
-    "babel-eslint": "^10.0.3",
-    "mocha": "^10.0.0",
-    "release-it": "^15.4.2",
-    "standard": "^17.0.0",
-    "eslint": "^8.23.1"
+    "release-it": "^15.10.1"
   },
   "release-it": {
     "github": {
